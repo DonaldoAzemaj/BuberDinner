@@ -1,0 +1,19 @@
+@host=http://localhost:5217
+
+POST  {{host}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "donaldazemaj@hotmail.com",
+    "password": "doni123"
+}
+
+###
+
+POST  {{host}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "donaldazemaj@hotmail.com",
+    "password": " "
+}
